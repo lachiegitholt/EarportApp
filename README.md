@@ -9,9 +9,9 @@
 A free Windows app that keeps your music collection and playlists in step
 with your MP3 player, swim headphones, USB stick or phone.
 
-[![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-4a6852?style=for-the-badge)](../../releases/latest)
+[![Download for Windows](https://img.shields.io/badge/Download%20for%20Windows-4a6852?style=for-the-badge)](https://github.com/lachiegitholt/EarportApp/releases/latest/download/Earport-setup.exe)
 
-<sub>Windows 10 or 11 · 64-bit · Free beta</sub>
+<sub>Windows 10 or 11 · 64-bit · Free beta · <a href="../../releases">All versions</a></sub>
 
 </div>
 
