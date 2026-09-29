@@ -103,8 +103,8 @@ MetaBrainz privacy policy: <https://metabrainz.org/privacy>
 - **Music tools:** when you ask Earport to install yt-dlp, FFmpeg, Deno or
   fpcalc, it asks GitHub for the latest official release of that tool and
   downloads it from there.
-- **Updates:** a little after Earport starts, and when you click **Check for
-  updates**, it fetches
+- **Updates:** a little after Earport starts, every six hours while it stays
+  open, and when you click **Check for updates**, it fetches
   `https://github.com/lachiegitholt/EarportApp/releases/latest/download/latest.json`
   to see if there is a newer version. If there is, it downloads it, and only
   installs it when you choose **Restart to update**.
