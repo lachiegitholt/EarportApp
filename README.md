@@ -71,7 +71,7 @@ Earport isn't code-signed yet. Click **More info**, then **Run anyway**. It inst
 <summary><b>Do I need Spotify?</b></summary>
 <br>
 
-No. A YouTube playlist link, a CSV file or an Apple Music export works too. Spotify import uses a free developer app you create yourself, which takes about two minutes and Earport walks you through it. Spotify requires that app's owner to have **Premium**, and each app works for up to 5 people.
+No. A YouTube playlist link, a CSV file or an Apple Music export works too. Spotify import uses a free developer app you create yourself, which takes a few minutes and Earport walks you through it. Spotify requires that app's owner to have **Premium**, and each app works for up to 5 people.
 
 </details>
 
