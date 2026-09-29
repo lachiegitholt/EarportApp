@@ -1,0 +1,88 @@
+EARPORT — FREEWARE LICENCE
+
+Copyright (c) 2026 Lachlan Holt. All rights reserved.
+
+In this licence, "I" and "me" mean Lachlan Holt, the author of Earport, and
+"you" means the person using it. By installing or using Earport you agree
+to this licence. If you don't agree, don't install or use Earport.
+
+1. Use. You may install and use Earport on any number of your own computers,
+   free of charge, for personal use.
+
+2. Restrictions. Earport is closed source. You may not sell, rent or
+   redistribute Earport or modified copies of it, or decompile,
+   reverse-engineer or disassemble it, except where the law allows this
+   despite this restriction. Share the official download link instead of the
+   installer.
+
+3. Acceptable use. You must not use Earport to infringe anyone's copyright
+   or other rights, or to break the law. You are responsible for what you
+   download and do with Earport, for only downloading music you have the
+   right to, and for following the terms of each service you use with it.
+
+4. Other services. Earport can connect to services run by others, such as
+   Spotify, YouTube, MusicBrainz and GitHub, and can read files exported from
+   Apple Music. You use those services with your own accounts and, for
+   Spotify, your own developer app, under their terms. They are not part of
+   Earport. I don't control them and I'm not responsible for them, for their
+   content, or for changes to them or their terms that stop an Earport feature
+   working. Earport is not affiliated with, endorsed or sponsored by Spotify,
+   YouTube, Google, Apple, MusicBrainz (MetaBrainz Foundation) or GitHub.
+   Their names are trademarks of their owners and are used only to describe
+   what Earport works with.
+
+5. Other programs. Earport can download separate, free programs when you
+   ask it to: yt-dlp, FFmpeg, Deno and fpcalc (from Chromaprint). They come
+   from their authors' official releases, are not part of Earport, and are
+   licensed to you by their authors under their own licences. Open-source
+   components included in Earport are listed, with their licences, in
+   THIRD_PARTY_NOTICES.txt in the install folder. Those licences apply to
+   those components instead of this licence where they say so.
+
+6. Updates. Earport checks for new versions automatically and downloads them
+   in the background. An update is only installed when you choose to restart
+   and install it. Updates are covered by this licence unless they come with
+   a different one.
+
+7. Beta software. Earport is a beta release. It may contain bugs, may change
+   or lose features, and may stop being offered or supported at any time.
+
+8. Your files. Earport works with the music files and devices you point it
+   at. Keep backups of anything you can't replace.
+
+9. Privacy. Earport does not collect or send usage data. Your library,
+   settings and logs stay on your computer. Spotify sign-in details are kept
+   in Windows Credential Manager. The privacy policy has the details:
+   https://github.com/lachiegitholt/EarportApp/blob/main/PRIVACY.md
+
+10. No warranty. Earport is provided "as is", without warranty of any kind,
+    to the extent the law allows.
+
+11. Limit of liability. To the extent the law allows:
+    (a) I am not liable for any indirect, incidental, special or
+        consequential loss, or for loss of data, files, profits or
+        opportunity, arising from Earport or its use, however caused; and
+    (b) my total liability for any claim about Earport is limited, at my
+        option, to supplying Earport again, or A$0 because Earport is
+        provided free of charge.
+
+12. Australian Consumer Law. Nothing in this licence excludes, restricts or
+    modifies any right or remedy, or any guarantee, warranty or other term or
+    condition, implied or imposed by any legislation (including the
+    Australian Consumer Law) which cannot lawfully be excluded or limited.
+
+13. Termination. This licence ends if you break it. You must then uninstall
+    Earport.
+
+14. Governing law. This licence is governed by the laws of Queensland,
+    Australia. You and I submit to the non-exclusive jurisdiction of its
+    courts.
+
+15. Severability. If any part of this licence is found invalid or
+    unenforceable, that part is limited or removed as little as needed, and
+    the rest of the licence stays in effect.
+
+16. Entire agreement. This licence is the whole agreement between you and me
+    about Earport. It replaces any earlier licence for Earport.
+
+17. Contact. Questions about this licence: earport.support@gmail.com

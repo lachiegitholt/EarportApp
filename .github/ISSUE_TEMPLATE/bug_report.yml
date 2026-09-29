@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in Earport doesn't work as it should
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Earport version
+      description: Settings → About → Copy version details, then paste here.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where in Earport?
+      options:
+        - Getting started / music tools
+        - Adding music (Spotify, links, files)
+        - Matching or downloading songs
+        - Library, song info, duplicates
+        - Playlists
+        - Devices and syncing
+        - Settings or updates
+        - Something else
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs (optional)
+      description: Settings → Storage & cleanup → Advanced → Open logs folder. Attach or paste the latest log. Look through it first for anything you'd rather not share.
+  - type: checkboxes
+    id: data
+    attributes:
+      label: Your files
+      options:
+        - label: Earport deleted or changed files it shouldn't have (we treat this as urgent)
