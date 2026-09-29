@@ -1,0 +1,62 @@
+name: Release guard
+
+# Earport's updater and the README's download button both use GitHub's
+# "latest release", which skips pre-releases. Whenever a release is
+# published (or edited), this makes sure the newest one is a normal release
+# set as latest, and that it has Earport-setup.exe for the download button.
+
+on:
+  release:
+    types: [published, edited]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-guard
+  cancel-in-progress: false
+
+jobs:
+  guard:
+    runs-on: ubuntu-24.04
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+    steps:
+      - name: Fix up the newest release
+        shell: bash
+        run: |
+          set -euo pipefail
+          # The newest published release (drafts are left alone).
+          newest=$(gh api "repos/$REPO/releases?per_page=20" \
+            --jq '[.[] | select(.draft == false)] | sort_by(.created_at) | last | .tag_name')
+          if [ -z "$newest" ] || [ "$newest" = "null" ]; then
+            echo "No published release yet."
+            exit 0
+          fi
+          echo "Newest release: $newest"
+
+          pre=$(gh api "repos/$REPO/releases/tags/$newest" --jq '.prerelease')
+          latest=$(gh api "repos/$REPO/releases/latest" --jq '.tag_name' 2>/dev/null || true)
+          if [ "$pre" = "true" ] || [ "$latest" != "$newest" ]; then
+            echo "Making $newest a normal release and the latest one."
+            gh release edit "$newest" --repo "$REPO" --prerelease=false --latest
+          fi
+
+          assets=$(gh api "repos/$REPO/releases/tags/$newest" --jq '.assets[].name')
+          if ! grep -qx 'Earport-setup.exe' <<<"$assets"; then
+            exe=$(grep -E '_x64-setup\.exe$' <<<"$assets" | head -1 || true)
+            if [ -n "$exe" ]; then
+              echo "Adding Earport-setup.exe (a copy of $exe)."
+              gh release download "$newest" --repo "$REPO" --pattern "$exe" --dir dl
+              cp "dl/$exe" Earport-setup.exe
+              gh release upload "$newest" Earport-setup.exe --repo "$REPO"
+            else
+              echo "::warning::$newest has no installer to copy."
+            fi
+          fi
+
+          # What the updater will see.
+          curl -fsSL "https://github.com/$REPO/releases/latest/download/latest.json" \
+            | python3 -c "import json,sys; print('Updater sees', json.load(sys.stdin)['version'])"
