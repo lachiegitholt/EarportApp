@@ -92,6 +92,18 @@ Nothing about you. It only connects to the services you use: Spotify when you im
 </details>
 
 <details>
+<summary><b>Your music and data</b></summary>
+<br>
+
+Your library (music, playlists, covers and Earport's database) lives in one folder: **%USERPROFILE%\Earport** unless you chose another, and you can move it later in **Settings → Library**.
+
+- **Back up** that whole folder, not just the music inside it.
+- **Moving to a new PC?** Copy the folder across, install Earport, then use **Settings → Library → Open an existing library**.
+- **Uninstalling:** use **Windows Settings → Apps**. Your music folder stays where it is; to remove Earport's settings too, see [Deleting your information](PRIVACY.md#deleting-your-information) in the privacy policy.
+
+</details>
+
+<details>
 <summary><b>Something went wrong</b></summary>
 <br>
 
