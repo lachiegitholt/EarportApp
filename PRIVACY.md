@@ -1,6 +1,6 @@
 # Earport privacy policy
 
-Last updated: 29 September 2026
+Last updated: 30 September 2026
 
 This policy explains what information the Earport desktop app handles, where
 it is kept, and which outside services it talks to.
@@ -102,12 +102,22 @@ MetaBrainz privacy policy: <https://metabrainz.org/privacy>
   servers).
 - **Music tools:** when you ask Earport to install yt-dlp, FFmpeg, Deno or
   fpcalc, it asks GitHub for the latest official release of that tool and
-  downloads it from there.
-- **Updates:** a little after Earport starts, every six hours while it stays
-  open, and when you click **Check for updates**, it fetches
+  downloads it from there. On the update schedule below, it also asks GitHub
+  for the latest yt-dlp version number, to tell you in Settings when a newer
+  one is out. It never installs a tool by itself.
+- **Updates:** by default, a little after Earport starts and every six hours
+  while it stays open, and whenever you click **Check for app updates**, it
+  fetches
   `https://github.com/lachiegitholt/EarportApp/releases/latest/download/latest.json`
+  (or, if you choose stable versions only,
+  `https://github.com/lachiegitholt/EarportApp/releases/download/stable/latest.json`)
   to see if there is a newer version. If there is, it downloads it, and only
   installs it when you choose **Restart to update**.
+- **Changing or turning off update checks:** in **Settings → Updates** you
+  can choose how often Earport checks (at launch, every six hours, daily or
+  weekly), have it ask before downloading, check only when you click **Check
+  for app updates**, or turn off the checks for Earport and for music tools
+  separately.
 - **What GitHub receives:** the file being requested. GitHub may count
   downloads, but I don't receive information that identifies you.
 
