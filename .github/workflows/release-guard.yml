@@ -28,9 +28,11 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          # The newest published release (drafts are left alone).
+          # The newest published release (drafts are left alone), by when it
+          # was published: created_at is the tag's commit date, and every beta
+          # tags the same commit here, so it can't tell them apart.
           newest=$(gh api "repos/$REPO/releases?per_page=20" \
-            --jq '[.[] | select(.draft == false)] | sort_by(.created_at) | last | .tag_name')
+            --jq '[.[] | select(.draft == false)] | sort_by(.published_at) | last | .tag_name')
           if [ -z "$newest" ] || [ "$newest" = "null" ]; then
             echo "No published release yet."
             exit 0
