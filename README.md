@@ -28,7 +28,7 @@ Every album and playlist on one wall. Earport fixes missing song info and finds 
 <td width="50%" valign="top">
 
 ### Playlists from anywhere
-Bring them in from Spotify, Apple Music, a YouTube link or a CSV file, and Earport finds the songs.
+Bring them in from Spotify, Apple Music, a YouTube or YouTube Music link or a CSV file, and Earport finds the songs.
 
 </td>
 </tr>
@@ -71,7 +71,7 @@ Earport isn't code-signed yet. Click **More info**, then **Run anyway**. It inst
 <summary><b>Do I need Spotify?</b></summary>
 <br>
 
-No. A YouTube playlist link, a CSV file or an Apple Music export works too. Spotify import uses a free developer app you create yourself, which takes a few minutes and Earport walks you through it. Spotify requires that app's owner to have **Premium**, and each app works for up to 5 people.
+No. A YouTube or YouTube Music link, a CSV file or an Apple Music export works too. Spotify import uses a free developer app you create yourself, which takes a few minutes and Earport walks you through it. Spotify requires that app's owner to have **Premium**, and each app works for up to 5 people.
 
 </details>
 
