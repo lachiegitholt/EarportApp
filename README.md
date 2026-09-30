@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/icon.png" width="84" alt="">
+<img src="docs/icon.png" width="84" height="84" alt="">
 
 # Earport
 
@@ -17,6 +17,7 @@ with your MP3 player, swim headphones, USB stick or phone.
 
 <br>
 
+<!-- One row only: GitHub shades every second table row. -->
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -24,22 +25,14 @@ with your MP3 player, swim headphones, USB stick or phone.
 ### Your collection, by its covers
 Every album and playlist on one wall. Earport fixes missing song info and finds duplicates for you.
 
-</td>
-<td width="50%" valign="top">
-
-### Playlists from anywhere
-Bring them in from Spotify, Apple Music, a YouTube or YouTube Music link or a CSV file, and Earport finds the songs.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### On your devices in one click
 Choose which playlists go on each device, then sync. Your own files on the device are never touched.
 
 </td>
 <td width="50%" valign="top">
+
+### Playlists from anywhere
+Bring them in from Spotify, Apple Music, a YouTube or YouTube Music link or a CSV file, and Earport finds the songs.
 
 ### Yours, and private
 No account, no tracking and no subscription. Everything stays on your computer.
