@@ -83,6 +83,26 @@ Spotify privacy policy: <https://www.spotify.com/legal/privacy-policy/>
 
 Google privacy policy: <https://policies.google.com/privacy>
 
+### SoundCloud and Deezer (only when you import a link from them)
+
+- **Addresses:** SoundCloud: `soundcloud.com` and `api-v2.soundcloud.com`
+  (through yt-dlp), `on.soundcloud.com` (to open a share link), and
+  `i1.sndcdn.com` and other SoundCloud image servers (cover art). Deezer:
+  `api.deezer.com`, `link.deezer.com` and `deezer.page.link` (to open a share
+  link), and `e-cdns-images.dzcdn.net` and other Deezer image servers (cover
+  art).
+- **What they receive:** the link of the playlist or album you import, and
+  the same link again when Earport checks a linked playlist for changes.
+  Earport does not sign in to either service, and reads only public
+  playlists and albums.
+- **What Earport reads:** the playlist's or album's name, and each song's
+  title, artist, album, duration, ISRC code (Deezer, when given) and artwork
+  link. Songs are found and downloaded from YouTube, as for any other
+  import; nothing is downloaded from SoundCloud or Deezer.
+
+SoundCloud privacy policy: <https://soundcloud.com/pages/privacy>
+Deezer privacy policy: <https://www.deezer.com/legal/personal-datas>
+
 ### MusicBrainz and the Cover Art Archive (when fixing song info)
 
 - **Addresses:** `musicbrainz.org`, `coverartarchive.org` (and the

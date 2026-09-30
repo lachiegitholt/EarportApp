@@ -32,7 +32,7 @@ Choose which playlists go on each device, then sync. Your own files on the devic
 <td width="50%" valign="top">
 
 ### Playlists from anywhere
-Bring them in from Spotify, Apple Music, a YouTube or YouTube Music link or a CSV file, and Earport finds the songs.
+Bring them in from Spotify, Apple Music, YouTube, YouTube Music, SoundCloud, Deezer or a CSV file, and Earport finds the songs.
 
 ### Yours, and private
 No account, no tracking and no subscription. Everything stays on your computer.
@@ -64,7 +64,7 @@ Earport isn't code-signed yet. Click **More info**, then **Run anyway**. It inst
 <summary><b>Do I need Spotify?</b></summary>
 <br>
 
-No. A YouTube or YouTube Music link, a CSV file or an Apple Music export works too. Spotify import uses a free developer app you create yourself, which takes a few minutes and Earport walks you through it. Spotify requires that app's owner to have **Premium**, and each app works for up to 5 people.
+No. A playlist link from YouTube, YouTube Music, SoundCloud or Deezer, a CSV file or an Apple Music export works too. Spotify import uses a free developer app you create yourself, which takes a few minutes and Earport walks you through it. Spotify requires that app's owner to have **Premium**, and each app works for up to 5 people.
 
 </details>
 
@@ -80,7 +80,7 @@ yt-dlp, FFmpeg and Deno are separate, free programs. When you agree, Earport fet
 <summary><b>What does Earport send anywhere?</b></summary>
 <br>
 
-Nothing about you. It only connects to the services you use: Spotify when you import, YouTube when finding songs, MusicBrainz and cover-art sites when fixing song info, and GitHub for the music tools and updates. See the [privacy policy](PRIVACY.md).
+Nothing about you. It only connects to the services you use: Spotify, SoundCloud or Deezer when you import from them, YouTube when finding songs, MusicBrainz and cover-art sites when fixing song info, and GitHub for the music tools and updates. See the [privacy policy](PRIVACY.md).
 
 </details>
 
@@ -111,6 +111,6 @@ For anything else, email **earport.support@gmail.com**.
 <div align="center">
 <sub>
 Free to use under the <a href="EULA.txt">licence</a> · <a href="PRIVACY.md">Privacy</a><br>
-Not affiliated with Spotify, YouTube, Apple or the makers of the music tools.
+Not affiliated with Spotify, YouTube, SoundCloud, Deezer, Apple or the makers of the music tools.
 </sub>
 </div>
